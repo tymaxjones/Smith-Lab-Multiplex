@@ -34,7 +34,6 @@ dna <- readDNAStringSet("C:/Users/tymax/Desktop/Sars-CoV-2.fasta")
 melt_temp <- 64.9 + (41 * (4 - 16.4)/(18))
 
 
-
 #primer should be 18 30
 dna2 <- dna$`NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome`
 
