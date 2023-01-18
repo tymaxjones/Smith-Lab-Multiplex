@@ -21,7 +21,6 @@ fasta.file <- system.file("extdata", "IMGT_data", "templates",
 # Load the template sequences from 'fasta.file'
 seq.df.simple <- read_templates(fasta.file)
 
-
 BiocManager::install("Biostrings")
 BiocManager::install("TmCalculator")
 library(TmCalculator)
